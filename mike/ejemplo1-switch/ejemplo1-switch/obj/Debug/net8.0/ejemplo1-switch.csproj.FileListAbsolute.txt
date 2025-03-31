@@ -1,0 +1,15 @@
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\bin\Debug\net8.0\ejemplo1-switch.exe
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\bin\Debug\net8.0\ejemplo1-switch.deps.json
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\bin\Debug\net8.0\ejemplo1-switch.runtimeconfig.json
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\bin\Debug\net8.0\ejemplo1-switch.dll
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\bin\Debug\net8.0\ejemplo1-switch.pdb
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.AssemblyInfoInputs.cache
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.AssemblyInfo.cs
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.csproj.CoreCompileInputs.cache
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.sourcelink.json
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.dll
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\refint\ejemplo1-switch.dll
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.pdb
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ejemplo1-switch.genruntimeconfig.cache
+C:\Users\maflo\Documents\Cursos\Codeo\C#\mike\ejemplo1-switch\ejemplo1-switch\obj\Debug\net8.0\ref\ejemplo1-switch.dll
