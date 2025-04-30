@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace Colecciones
+namespace BibliotecaApp
 {
     internal class Test
     {

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Colecciones { 
+namespace BibliotecaApp
+{ 
     internal class Biblioteca
     {
         private List<Libro> libros;
