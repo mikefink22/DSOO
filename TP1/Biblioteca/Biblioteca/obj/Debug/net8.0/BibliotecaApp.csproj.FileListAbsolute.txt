@@ -1,0 +1,15 @@
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\bin\Debug\net8.0\BibliotecaApp.exe
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\bin\Debug\net8.0\BibliotecaApp.deps.json
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\bin\Debug\net8.0\BibliotecaApp.runtimeconfig.json
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\bin\Debug\net8.0\BibliotecaApp.dll
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\bin\Debug\net8.0\BibliotecaApp.pdb
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.AssemblyInfoInputs.cache
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.AssemblyInfo.cs
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.csproj.CoreCompileInputs.cache
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.sourcelink.json
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.dll
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\refint\BibliotecaApp.dll
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.pdb
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\BibliotecaApp.genruntimeconfig.cache
+C:\Users\maflo\Documents\Cursos\Codeo\C#\TP1\Biblioteca\Biblioteca\obj\Debug\net8.0\ref\BibliotecaApp.dll
