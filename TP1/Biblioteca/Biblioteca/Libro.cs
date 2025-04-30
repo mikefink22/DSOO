@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Colecciones
+namespace BibliotecaApp
 {
     internal class Libro
     {
