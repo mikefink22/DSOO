@@ -1,0 +1,42 @@
+using System;
+
+namespace Colecciones
+{
+    internal class Test
+    {
+        static void Main(string[] args)
+        {
+            BibliotecaManager biblioteca = new BibliotecaManager();
+
+            // Agregar libros a la biblioteca
+            biblioteca.AgregarLibro(new Libro("El Señor de los Anillos", "J.R.R. Tolkien", "Minotauro"));
+            biblioteca.AgregarLibro(new Libro("Cien años de soledad", "Gabriel García Márquez", "Sudamericana"));
+            biblioteca.AgregarLibro(new Libro("Fundación", "Isaac Asimov", "Debolsillo"));
+
+            // Registrar lectores
+            biblioteca.RegistrarLector(new Lector("Juan Pérez", "12345678"));
+            biblioteca.RegistrarLector(new Lector("María Gómez", "98765432"));
+
+            biblioteca.ListarLibrosDisponibles();
+            biblioteca.ListarLectoresRegistrados();
+
+            // Realizar préstamos
+            biblioteca.RealizarPrestamo("12345678", "El Señor de los Anillos");
+            biblioteca.RealizarPrestamo("12345678", "Cien años de soledad");
+            biblioteca.RealizarPrestamo("98765432", "Fundación");
+            biblioteca.RealizarPrestamo("12345678", "Otro libro"); // No existe
+
+            biblioteca.ListarLibrosDisponibles();
+            biblioteca.ListarLectoresRegistrados();
+
+            // Intentar superar el límite de préstamos
+            biblioteca.RealizarPrestamo("12345678", "Fundación");
+
+            // Realizar devoluciones
+            biblioteca.RealizarDevolucion("12345678", "El Señor de los Anillos");
+
+            biblioteca.ListarLibrosDisponibles();
+            biblioteca.ListarLectoresRegistrados();
+        }
+    }
+}

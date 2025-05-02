@@ -1,0 +1,118 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Biblioteca
+{
+    public class BibliotecaManager
+    {
+        private List<Libro> librosDisponibles;
+        private List<Lector> lectoresRegistrados;
+
+        public BibliotecaManager()
+        {
+            librosDisponibles = new List<Libro>();
+            lectoresRegistrados = new List<Lector>();
+        }
+
+        public void AgregarLibro(Libro libro)
+        {
+            librosDisponibles.Add(libro);
+            Console.WriteLine($"Se agregó el libro: {libro.Titulo} a la biblioteca.");
+        }
+
+        public void RegistrarLector(Lector lector)
+        {
+            if (!lectoresRegistrados.Any(l => l.Dni == lector.Dni))
+            {
+                lectoresRegistrados.Add(lector);
+                Console.WriteLine($"Se registró al lector: {lector.Nombre} con DNI {lector.Dni}.");
+            }
+            else
+            {
+                Console.WriteLine($"El lector con DNI {lector.Dni} ya está registrado.");
+            }
+        }
+
+        public void RealizarPrestamo(string dniLector, string tituloLibro)
+        {
+            Lector lector = lectoresRegistrados.FirstOrDefault(l => l.Dni == dniLector);
+            Libro libro = librosDisponibles.FirstOrDefault(l => l.Titulo.ToLower() == tituloLibro.ToLower());
+
+            if (lector == null)
+            {
+                Console.WriteLine($"No se encontró ningún lector con DNI {dniLector}.");
+                return;
+            }
+
+            if (libro == null)
+            {
+                Console.WriteLine($"No se encontró el libro '{tituloLibro}' en la biblioteca.");
+                return;
+            }
+
+            if (lector.PuedeTomarPrestamo())
+            {
+                librosDisponibles.Remove(libro);
+                lector.TomarPrestamo(libro);
+            }
+        }
+
+        public void RealizarDevolucion(string dniLector, string tituloLibro)
+        {
+            Lector lector = lectoresRegistrados.FirstOrDefault(l => l.Dni == dniLector);
+            Libro libroPrestado = lector?.LibrosPrestados.FirstOrDefault(l => l.Titulo.ToLower() == tituloLibro.ToLower());
+
+            if (lector == null)
+            {
+                Console.WriteLine($"No se encontró ningún lector con DNI {dniLector}.");
+                return;
+            }
+
+            if (libroPrestado == null)
+            {
+                Console.WriteLine($"El lector '{lector.Nombre}' no tiene prestado el libro '{tituloLibro}'.");
+                return;
+            }
+
+            lector.DevolverLibro(libroPrestado);
+            librosDisponibles.Add(libroPrestado);
+        }
+
+        public void ListarLibrosDisponibles()
+        {
+            Console.WriteLine("\nLibros disponibles en la biblioteca:");
+            if (librosDisponibles.Count == 0)
+            {
+                Console.WriteLine("No hay libros disponibles.");
+            }
+            else
+            {
+                foreach (var libro in librosDisponibles)
+                {
+                    Console.WriteLine($"- {libro}");
+                }
+            }
+        }
+
+        public void ListarLectoresRegistrados()
+        {
+            Console.WriteLine("\nLectores registrados en la biblioteca:");
+            if (lectoresRegistrados.Count == 0)
+            {
+                Console.WriteLine("No hay lectores registrados.");
+            }
+            else
+            {
+                foreach (var lector in lectoresRegistrados)
+                {
+                    Console.WriteLine($"- {lector.Nombre} (DNI: {lector.Dni}), Préstamos vigentes: {lector.LibrosPrestados.Count}/{lector.MaxPrestamosVigentes}");
+                }
+            }
+        }
+    }
+}
+
+
+
+
